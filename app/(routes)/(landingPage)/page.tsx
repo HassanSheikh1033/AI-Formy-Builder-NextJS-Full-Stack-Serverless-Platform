@@ -12,7 +12,7 @@ export default function Home() {
             <div className="p-2 h-5 shrink-0 flex items-center text-xs justify-center text-white bg-primary rounded-full">
               New
             </div>
-            Subscribe to Techwithemma
+            Subscribe to Formy Builder
             <ChevronRight className="w-4 h-4" />
           </div>
 
@@ -43,9 +43,9 @@ export default function Home() {
                 className="h-12  border-primary text-primary text-base font-medium min-w-32"
                 asChild
               >
-                <a className="flex items-center gap-1">
-                  <Video size="17px" />
-                  Watch video
+                <a href={'/dashboard'} className="flex items-center gap-1">
+                  {/* <Video size="17px" /> */}
+                  Learn More
                 </a>
               </Button>
             </div>
@@ -53,13 +53,13 @@ export default function Home() {
         </div>
         <div className="w-full relative max-w-5xl mx-auto px-4 md:px-6 lg:px-8">
           <div className="absolute top-15 left-1/2 transform -translate-x-1/2 w-full h-[200px] bg-gradient-to-r from-primary to-purple-500 rounded-full blur-3xl opacity-40 z-0" />
-          <div className="w-full h-[400px] md:h-[500px] lg:h-[580px] rounded-xl shadow-lg bg-transparent">
-            <div className="relative w-full h-full rounded-md">
+          <div className="w-full h-[400px] md:h-[500px] lg:h-[580px] ">
+            <div className="relative w-full h-full rounded-2xl">
               <Image
                 src="/images/formflowers.webp"
                 alt="Formy AI dashboard"
                 fill
-                className="object-contain w-full h-full rounded-md"
+                className="object-contain w-full h-full rounded-2xl"
               />
             </div>
           </div>
