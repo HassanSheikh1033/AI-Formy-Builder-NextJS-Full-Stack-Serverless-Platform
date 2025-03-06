@@ -56,7 +56,7 @@ export default function Home() {
           <div className="w-full h-[400px] md:h-[500px] lg:h-[580px] rounded-xl shadow-lg bg-transparent">
             <div className="relative w-full h-full rounded-md">
               <Image
-                src="/images/board-img.png"
+                src="/images/formflowers.webp"
                 alt="Formy AI dashboard"
                 fill
                 className="object-contain w-full h-full rounded-md"
